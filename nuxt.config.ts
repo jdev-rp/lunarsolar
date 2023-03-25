@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             charset: 'utf-8',
-            title: 'lunarsolar',
+            title: '양력음력 변환',
             meta: [
                 { name : 'description', content: '양력 음력 변환하기' }
             ]
