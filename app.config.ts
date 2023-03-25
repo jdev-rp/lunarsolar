@@ -1,6 +1,6 @@
 export default defineAppConfig({
     theme: {
-        primaryColor: '#000000',
-        headingColor: '#000000'
+        'primary-color': '#000000',
+        'heading-color': '#000000'
     }
 })

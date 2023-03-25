@@ -10,5 +10,11 @@ export default defineNuxtConfig({
             ]
         }
     },
-
+    css: ['ant-design-vue/dist/antd.css'],
+    build: {
+        loaders: {
+            less: {
+            }
+        }
+    }
 })

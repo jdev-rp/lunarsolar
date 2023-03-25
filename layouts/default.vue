@@ -2,7 +2,7 @@
   <main>
     <a-layout>
       <a-layout-header></a-layout-header>
-      <a-layout-content style="padding: 30px; height: 700px;">
+      <a-layout-content style="padding: 5%; height: 700px;">
         <slot/>
       </a-layout-content>
       <a-layout-footer></a-layout-footer>
