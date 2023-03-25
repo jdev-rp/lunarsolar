@@ -5,8 +5,8 @@
         <a-form @submit.prevent="onSubmit">
           <a-form-item>
             <a-radio-group v-model:value="type" button-style="solid">
-              <a-radio-button value="solar">양력</a-radio-button>
               <a-radio-button value="lunar">음력</a-radio-button>
+              <a-radio-button value="solar">양력</a-radio-button>
             </a-radio-group>
             으로 변환하기
           </a-form-item>
@@ -33,7 +33,7 @@ import dayjs from 'dayjs';
 export default {
   name: "index",
   data: () => ({
-    type: 'solar',
+    type: 'lunar',
     datetime: '',
     result: {
       year: '',
