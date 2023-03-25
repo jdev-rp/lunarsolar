@@ -1,6 +1,15 @@
 <template>
-  <main>
-    <a-row type="flex" justify="center" align="middle">
+  <main style="text-align: center;">
+    <a-row>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2015887020918613"
+           data-ad-slot="7041225889"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+
+    </a-row>
+    <a-row type="flex" justify="center" align="middle" style="margin-top: 10%;">
       <a-col :md="8" :xs="16" :span="24">
         <a-form @submit.prevent="onSubmit">
           <a-form-item>
@@ -22,10 +31,19 @@
         년월일(변환): {{resultDateTime}}
       </a-col>
     </a-row>
+    <a-row>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-format="autorelaxed"
+           data-ad-client="ca-pub-2015887020918613"
+           data-ad-slot="1688826854"></ins>
+    </a-row>
   </main>
 </template>
 
 <script>
+let adsbygoogle = null;
+(adsbygoogle = window.adsbygoogle || []).push({});
 import lunarToSolar from "../openapi/lunarToSolar";
 import solarToLunar from "../openapi/solarToLunar";
 import dayjs from 'dayjs';
