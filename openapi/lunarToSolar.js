@@ -13,7 +13,7 @@ async function api (datetime) {
     urlParams.append('lunMonth', month);
     urlParams.append('lunDay', day);
 
-    const req = new Request(`http://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getSolCalInfo?${urlParams.toString()}`, {
+    const req = new Request(`https://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getSolCalInfo?${urlParams.toString()}`, {
         method: 'GET',
         redirect: 'follow',
     });
