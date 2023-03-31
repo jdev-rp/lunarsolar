@@ -3,11 +3,6 @@ export default defineNuxtConfig({
     ssr: false,
     head: {
         script: [
-            {
-                src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2015887020918613",
-                async: true,
-                crossorigin: "anonymous"
-            }
         ]
     },
     app: {
